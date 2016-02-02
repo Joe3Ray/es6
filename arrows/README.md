@@ -24,6 +24,7 @@ var nums = evens.map(function (v, i) {
 var pairs = evens.map(function (v) {
     return { even: v, odd: v + 1 };
 });
+```
 
 ## 声明式主体
 
@@ -43,6 +44,7 @@ nums.forEach(function (v) {
         fives.push(v);
     }
 });
+```
 
 ## 共享包裹函数的this作用域
 
@@ -69,3 +71,4 @@ var bob = {
         });
     }
 };
+```
