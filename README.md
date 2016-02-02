@@ -1,3 +1,5 @@
 # es6
 
--[arrows](./arrows)
+- [arrows](./arrows)
+- [classes](./classes)
+- [enhanced object literals](./enhanced-object-literals)
