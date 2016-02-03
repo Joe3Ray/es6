@@ -5,4 +5,5 @@
 - [enhanced object literals](./enhanced-object-literals)
 - [template strings](./template-strings)
 - [destructuring](./destructuring)
-- [Default + Rest + Spread](./default-rest-spread)
+- [default + rest + spread](./default-rest-spread)
+- [let + const](./let-const)
