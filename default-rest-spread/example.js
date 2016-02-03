@@ -1,0 +1,16 @@
+function f(x, y=12) {
+    // 如果没有传递参数y的值，y使用默认值12
+    return x + y;
+}
+console.log('f(3) == 15 : ', f(3) == 15);
+
+function m(x, ...y) {
+    // y是一个数组
+    return x * y.length;
+}
+console.log('m(3, "hello", true) == 6 :', m(3, "hello", true) == 6);
+
+function n(x, y, z) {
+    return x + y + z;
+}
+console.log('n(...[1, 2, 3]) == 6:', n(...[1, 2, 3]) == 6);
