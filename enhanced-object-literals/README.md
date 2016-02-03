@@ -2,8 +2,8 @@
 
 对象字面量支持在构造时设置原型，简写`foo: foo`的赋值，定义方法，调用父级方法和根据表达式来计算属性名。总之，这也让对象文字和类声明紧密联系起来，让基于对象的设计得益于一些同样的便利。
 
+### ES6
 ```JavaScript
-// ES6
 var obj = {
     __proto__: theProtoObj,
     handler,
@@ -12,8 +12,10 @@ var obj = {
     },
     [ 'prop_' + (() => 42)() ]: 42
 };
+```
 
-// ES5
+### ES5
+```JavaScript
 "use strict";
 
 var _obj;

@@ -2,8 +2,8 @@
 
 解构允许模式匹配绑定，支持匹配数组和对象。解构是故障弱化型的，与标准的对象查找`foo["bar"]`类似，匹配不到值的时候会返回`undefined`。
 
+### ES6
 ```JavaScript
-// ES6
 // 数组匹配
 var [a, , b] = [1,2,3];
 
@@ -36,8 +36,10 @@ console.log('a === undefined:',a === undefined);
 // 有默认值的故障弱化解构
 var [a = 1] = [];
 console.log('a === 1:', a === 1);
+```
 
-// ES5
+### ES5
+```JavaScript
 'use strict';
 
 // 数组匹配

@@ -4,14 +4,16 @@ Arrows使用`=>`语法来作为函数的简写。这个和C#、Java 8和CoffeeSc
 
 ## 表达式主体
 
+### ES6
 ```JavaScript
-// ES6
 var evens = [2, 4, 6, 8];
 var odds = evens.map(v => v + 1);
 var nums = evens.map((v, i) => v + i);
 var pairs = evens.map(v => ({even: v, odd: v + 1}));
+```
 
-// ES5
+### ES5
+```JavaScript
 'use strict';
 
 var evens = [2, 4, 6, 8];
@@ -28,16 +30,18 @@ var pairs = evens.map(function (v) {
 
 ## 声明式主体
 
+### ES6
 ```JavaScript
-// ES6
 var fives = [];
 nums.forEach(v => {
      if (v % 5) {
          fives.push(v);
      }
 });
+```
 
-// ES5
+### ES5
+```JavaScript
 var fives = [];
 nums.forEach(function (v) {
     if (v % 5 == 0) {
@@ -48,8 +52,8 @@ nums.forEach(function (v) {
 
 ## 共享包裹函数的this作用域
 
+### ES6
 ```JavaScript
-// ES6
 var bob = {
     _name: "Bob",
     _friends: [],
@@ -58,8 +62,10 @@ var bob = {
             console.log(this._name + " knows " + f));
     }
 }
+```
 
-// ES5
+### ES5
+```JavaScript
 var bob = {
     _name: 'Bob',
     _friends: [],
