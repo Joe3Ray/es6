@@ -9,3 +9,5 @@
 - [let + const](./let-const)
 - [iterators + for..of](./iterators-for..of)
 - [generators](./generators)
+- [unicode](./unicode)
+- [modules](./modules)
