@@ -11,3 +11,4 @@
 - [generators](./generators)
 - [unicode](./unicode)
 - [modules](./modules)
+- [module loaders](./module-loaders)
