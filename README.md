@@ -19,3 +19,4 @@
 - [binary and octal literals](./binary-and-octal-literals)
 - [promises](./promises)
 - [reflect api](./reflect-api)
+- [tail calls](./tail-calls)
