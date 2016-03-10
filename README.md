@@ -18,3 +18,4 @@
 - [math + number + string + array + object apis](./math-number-string-array-object-apis)
 - [binary and octal literals](./binary-and-octal-literals)
 - [promises](./promises)
+- [reflect api](./reflect-api)
