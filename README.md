@@ -15,4 +15,5 @@
 - [map + set + weakmap + weakset](./map-set-weakmap-weakset)
 - [proxies](./proxies)
 - [symbols](./symbols)
+- [math + number + string + array + object apis](./math-number-string-array-object-apis)
 - [binary and octal literals](./binary-and-octal-literals)
