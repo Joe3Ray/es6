@@ -31,3 +31,24 @@ var handler = {
 var p = new Proxy(target, handler);
 p() === 'I am the proxy';
 ```
+
+下面是所有运行时级别的元操作：
+
+```JavaScript
+var handler = {
+    get: ...,
+    set: ...,
+    has: ...,
+    deleteProperty: ...,
+    apply: ...,
+    construc: ...,
+    getOwnPropertyDescriptor: ...,
+    defineProperty: ...,
+    getPrototypeOf: ...,
+    setPrototypeOf: ...,
+    enumerate: ...,
+    ownKeys: ...,
+    preventExtensions: ...,
+    isExtensible: ...
+};
+```
