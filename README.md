@@ -13,4 +13,5 @@
 - [modules](./modules)
 - [module loaders](./module-loaders)
 - [map + set + weakmap + weakset](./map-set-weakmap-weakset)
+- [proxies](./proxies)
 - [binary and octal literals](./binary-and-octal-literals)
