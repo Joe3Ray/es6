@@ -1,6 +1,6 @@
 # Promises
 
-Promises是一套异步编程的库。Promises是将来可能实现的一个值的第一等代表。现有的很多库都已经实现了Promise。
+Promises是一套异步编程的库。Promise是对一个“将来可能会变得可用”的值的第一类表示。现有的很多库都已经实现了Promise。
 
 ### ES6
 ```JavaScript
